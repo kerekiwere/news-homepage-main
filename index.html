@@ -4,16 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <title>Frontend Mentor | News homepage</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
   <header class="header container">
     <img src="images/logo.svg" alt="Logo" class="header__logo">
+    <div class="overlay"></div>
+    <button class="hamburger mobile-only">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
     <nav class="navbar">
       <ul class="navbar__list">
         <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
