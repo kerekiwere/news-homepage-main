@@ -93,7 +93,7 @@ a {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   background: var(--clr-off-white);
   width: 70%;
   inset: 0 0 0 30%;
