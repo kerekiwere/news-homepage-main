@@ -82,7 +82,7 @@ a {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   pointer-events: none;
   inset: 0;
   background-color: rgba(0, 0, 0, 0);
