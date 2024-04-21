@@ -27,6 +27,7 @@
 /* =============== Global Styles =============== */
 body {
   font-family: var(--ff-primary);
+  background: var(--clr-off-white);
   color: var(--clr-primary);
 }
 
@@ -137,13 +138,19 @@ a {
   width: 100%;
   height: 4px;
 
-  transition: width 0.3s ease,
+  transition: width 0.3s ease 0.4s,
     margin 0.3s ease 0.2s,
-    transform 0.3s ease 0.4s;
+    transform 0.3s ease;
 }
 
 .hamburger__line+.hamburger__line {
   margin: 5px 0 0 0;
+}
+
+.open-menu .hamburger__line {
+  transition: width 0.3s ease,
+    margin 0.3s ease 0.2s,
+    transform 0.3s ease 0.4s;
 }
 
 .open-menu .hamburger__line:nth-child(1) {
@@ -238,7 +245,6 @@ a {
 
 .popular__link {
   color: var(--clr-very-dark-blue);
-  font-size: 1.10em;
   font-weight: 800;
 }
 
